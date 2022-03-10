@@ -11,8 +11,11 @@
     clear: both;
 }
 
-/* COMMON/UTILITY */
+li {
+    list-style: none;
+}
 
+/* COMMON/UTILITY */
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
@@ -51,34 +54,58 @@ html {
     padding: 0 2em;
 }
 
+/* BOTTONI */
+.blue-btn {
+    margin-left: 1em;
+    padding: .5em 1.5em;
+    font-size: .8em;
+    background-color: #0061ff;
+    color: white;
+}
+
 
 /* HEADER */
 header {
+    line-height: 50px;
     /* test */
     height: 50px;
 }
 .nav-logo {
     width: 12.5%;
-
-    /* test */
+    text-align: center;
+    /* test
     height: 50px;
-    background-color: red;
+    background-color: red; */
+}
+
+.nav-logo img {
+    vertical-align: middle;
 }
 
 .nav-center-menu {
-    width: 57.5%;
+    width: 52%;
 
-    /* test */
+    /* test
     height: 50px;
-    background-color: aquamarine;
+    background-color: aquamarine; */
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 0 .8em;
+    text-decoration: none;
+    color: black
 }
 
 .nav-right-menu {
-    width: 30%;
+    width: 35.5%;
 
-    /* test */
+    /* test
     height: 50px;
-    background-color: blueviolet;
+    background-color: blueviolet; */
 }
 
 /* JUMBOTRON */
