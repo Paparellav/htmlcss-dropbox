@@ -1,0 +1,70 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* COMMON/UTILITY */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+.col {
+    float: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mr-2 {
+    margin-right: 2em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.ml-2 {
+    margin-left: 2em;
+}
+
+
+/* HEADER */
+.nav-logo {
+    width: 12.5%;
+
+    /* test */
+    height: 50px;
+    background-color: red;
+}
+
+.nav-center-menu {
+    width: 57.5%;
+
+    /* test */
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.nav-right-menu {
+    width: 30%;
+
+    /* test */
+    height: 50px;
+    background-color: blueviolet;
+}
