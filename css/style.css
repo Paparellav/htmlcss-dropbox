@@ -175,3 +175,19 @@ header {
     height: 300px;
     background-color: blueviolet;
 }
+
+.content-square h1 {
+
+    /* test */
+    height: 100px;
+    background-color: red;
+}
+
+.side-square {
+    width: calc((100%/3) - 10px);
+    margin: 5px 5px;
+
+    /* test */
+    height: 200px;
+    background-color: aqua;
+}
