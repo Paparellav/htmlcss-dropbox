@@ -43,8 +43,20 @@ html {
     margin-left: 2em;
 }
 
+.vertical-padding {
+    padding: 2em 0;
+}
+
+.horizontal-padding {
+    padding: 0 2em;
+}
+
 
 /* HEADER */
+header {
+    /* test */
+    height: 50px;
+}
 .nav-logo {
     width: 12.5%;
 
@@ -66,5 +78,33 @@ html {
 
     /* test */
     height: 50px;
+    background-color: blueviolet;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    /* test */
+    background-color: #b4d0e7;
+    height: 500px;
+}
+
+.jumbo-title {
+    /* test */
+    height: 100px;
+    background-color: bisque;
+}
+
+.text-col {
+    width: 40%;
+    /* test */
+    height: 250px;
+    background-color: brown;
+}
+
+.image-col {
+    width: 60%;
+
+    /* test */
+    height: 400px;
     background-color: blueviolet;
 }
