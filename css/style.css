@@ -416,32 +416,29 @@ nav a {
     padding: 0 3em;
 }
 
-.partnerships {
-    height: 800px;
+.try-now {
     background-color: #b4d0e7;
+}
+
+.try-now .container {
+    padding: 5em 3.5em;
     position: relative;
 }
 
-.partnerships .container h1 {
+.try-now .container h1 {
     display: inline-block;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #61082b;
 }
-
-.partnerships .container {
-    position: absolute;
-    bottom: 6em;
-    left: 14em;
-}
-
-.prova-ora {
+.try-now-button {
     display: inline-block;
     position: absolute;
-    bottom: 6em;
-    right: 6em;
+    top: 5.5em;
+    right: 2.5em;
 }
 
-.prova-ora a {
+.try-now-button a {
+    padding: .6em 3em;
     background-color: white;
-    padding: .8em 2em;
+    color: black;
 }
