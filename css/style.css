@@ -61,6 +61,10 @@ html {
     padding: 0 1em;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .line-height2 {
     line-height: 2em;
 }
@@ -299,22 +303,30 @@ nav a {
     background-color: blueviolet; */
 }
 
-.enterprise-text .white-btn {
-
+.content-square .container {
+    width: 60%;
 }
 
 .content-square h1 {
-
-    /* test */
-    height: 100px;
-    background-color: red;
+    font-size: 2.5em;
 }
 
 .side-square {
-    width: calc((100%/3) - 10px);
-    margin: 5px 5px;
+    width: calc((100%/3) - 60px);
+    margin: 10px 30px;
 
     /* test */
-    height: 200px;
-    background-color: aqua;
+    /* height: 200px; */
+    /* background-color: aqua; */
+}
+
+.five-thousand-section .container {
+    width: 60%;
+    padding-left: 1em;
+    margin-top: 6em;
+    font-size: 1.5em;
+}
+
+.five-thousand-section a {
+    color: #0061ff;
 }
