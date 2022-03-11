@@ -58,7 +58,11 @@ html {
 }
 
 .horizontal-padding {
-    padding: 0 2em;
+    padding: 0 1em;
+}
+
+.line-height2 {
+    line-height: 2em;
 }
 
 /* BOTTONI */
@@ -70,6 +74,12 @@ html {
     color: white;
 }
 
+.white-btn {
+    padding: .5em 1.5em;
+    font-size: .8em;
+    color: grey;
+    border: 1px solid grey;
+}
 
 /* HEADER */
 header {
@@ -161,70 +171,136 @@ nav a {
 }
 
 /* SEZIONE PIANO DROPBOX */
+.dropbox-plan .container {
+    width: 60%;
+    margin-top: 2.5em;
+}
+
 .plan-top {
     
     /* test */
-    margin-top: 6em;
-    height: 150px;
-    background-color: aquamarine;
+    /* height: 150px;
+    background-color: aquamarine; */
 }
 
 .plan-top .plan-title {
     
     /* test */
-    height: 25px;
-    background-color: yellow;
+    font-size: 2em;
+    /* background-color: yellow; */
 }
 
-.plan-top input {
-
-    /* test */
-    margin-right: 10em;
+.radio1, .radio2 {
+    display: inline-block;
+    margin-right: 1em;
 }
 
 .plan-bottom {
     /* test */
-    height: 600px;
-    background-color: yellowgreen;
+    height: 1000px;
+    /* background-color: yellowgreen; */
 }
 
 .side-plan-col {
     width: calc((100%/3) - 10px);
-    margin: 0 5px;
 
     /* test */
     height: 95%;
-    border: 2px solid red;
+    border: 1px solid #d0d0d3;
+}
+
+.center-col {
+    margin: 0 15px;
+}
+
+.plan-bottom .icon-header {
+    text-align: center;
+    padding: .3em;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.main-colon {
+    margin-left: 1em;
+    line-height: 3em;
+    font-size: 0.9em;
+}
+
+.main-colon #a-capo {
+    margin-left: 1.1em;
+}
+
+.main-colon .blue-btn {
+    padding: .5em 4em;
+}
+
+.acquista-ora {
+    display: inline-block;
+    margin-left: .8em;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.acquista-ora2 a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.col-list {
+    margin-top: 1em;
+}
+
+/* SEZIONE ENTERPRISE */
+.enterprise .container {
+    width: 60%;
+}
+.enterprise .icon-header {
+    padding: .2em;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .enterprise-top {
     /* test */
-    height: 200px;
-    border: 3px solid red;
+    /* height: 200px; */
+    border: 1px solid #d0d0d3;
+    position: relative;
 }
 
-.enterprise-top h3 {
-    text-align: center;
-    /* test */
-    height: 15%;
-    border: 3px solid black;
+.enterprise-top h2 {
+    padding: 1em 1em;
+    display: inline-block;
 }
+
+.enterprise-top span {
+    position: absolute;
+    top: 4em;
+    right: 1em;
+}
+
+.enterprise-top .enterprise-p {
+    padding: 1.5em;
+}
+
 
 .enterprise-image {
     width: 50%;
 
     /* test */
-    height: 300px;
-    background-color: bisque;
+    /* height: 300px;
+    background-color: bisque; */
 }
 
 .enterprise-text {
-    width: calc(50% - 5px);
-    margin-left: 5px;
+    width: calc(50% - 10px);
+    padding-left: 2em;
+    line-height: 1.8em;
 
     /* test */
-    height: 300px;
-    background-color: blueviolet;
+    /* height: 300px;
+    background-color: blueviolet; */
+}
+
+.enterprise-text .white-btn {
+
 }
 
 .content-square h1 {
