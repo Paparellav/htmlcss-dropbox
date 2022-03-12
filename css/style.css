@@ -140,6 +140,16 @@ header {
     /* test */
     /* height: 50px; */
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+
 .nav-logo {
     width: 12.5%;
     text-align: center;
@@ -181,13 +191,15 @@ nav a {
 
 /* JUMBOTRON */
 .jumbotron {
+    
     /* test */
+    height: 650px;
     background-color: #b4d0e7;
-    height: 580px;
 }
 
 .jumbo-title {
     font-size: 4em;
+    padding-top: 1em;
     /* test */
     /* height: 100px;
     background-color: bisque; */
@@ -195,7 +207,7 @@ nav a {
 
 .text-col {
     width: 35%;
-    margin-top: 1em;
+    margin-top: 3em;
     /* test */
     /* height: 250px; */
     /* background-color: brown; */
@@ -220,7 +232,7 @@ nav a {
 
 .image-col {
     width: 65%;
-    margin-top: 1em;
+    margin-top: 3em;
 
     /* test */
     /* height: 400px;
@@ -228,18 +240,10 @@ nav a {
 }
 
 /* SEZIONE PIANO DROPBOX */
+
 .dropbox-plan .container {
     width: 60%;
-    margin-top: 2.5em;
 }
-
-.plan-top {
-    
-    /* test */
-    /* height: 150px;
-    background-color: aquamarine; */
-}
-
 .plan-top .plan-title {
     
     /* test */
