@@ -26,6 +26,7 @@ a {
 /* COMMON/UTILITY */
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
 }
 
 .col {
@@ -34,11 +35,6 @@ html {
 
 .container {
     width: 80%;
-    margin: 0 auto;
-}
-
-.container2 {
-    width: 60%;
     margin: 0 auto;
 }
 
@@ -72,6 +68,19 @@ html {
 
 .line-height2 {
     line-height: 2em;
+}
+
+.border-top {
+    border-top: 2px solid #e3e3e4;
+}
+
+.border-bottom {
+    border-top: 2px solid #e3e3e4;
+}
+
+#blue-check {
+    color: #0061ff;
+    font-weight: bold;
 }
 
 /* BACKGROUND */
@@ -376,15 +385,15 @@ nav a {
 }
 
 .side-square-partner {
-    width: 450px;
+    width: 520px;
     /* test */
     /* height: 500px;
     background-color: red; */
 }
 
 .partner-square {
-    width: 225px;
-    height: 225px;
+    width: 260px;
+    height: 260px;
     position: relative;
 }
 
@@ -397,15 +406,19 @@ nav a {
 }
 
 .designit-col {
-    width: calc(100% - 900px);
+    width: calc(100% - 1040px);
     /* test */
-    height: 450px;
+    height: 520px;
     background-color: #f5f5f5;
 }
 
 .designit-logo img {
     width: 30%;
-    border-bottom: 1px solid #d0d0d3;
+}
+
+#border-grey {
+    width: 70px;
+    border-top: 2px solid #e3e3e4;
 }
 
 .designit-logo {
@@ -421,7 +434,8 @@ nav a {
 }
 
 .try-now .container {
-    padding: 5em 3.5em;
+    width: 60%;
+    padding: 6em 0;
     position: relative;
 }
 
@@ -433,12 +447,67 @@ nav a {
 .try-now-button {
     display: inline-block;
     position: absolute;
-    top: 5.5em;
-    right: 2.5em;
+    top: 7em;
+    right: 0;
 }
 
 .try-now-button a {
     padding: .6em 3em;
     background-color: white;
     color: black;
+}
+
+.support .container {
+    width: 60%;
+    padding: 3em 0;
+    margin-bottom: 4em;
+}
+
+.support .container h2 {
+    font-size: 2em;
+}
+
+.row-support {
+    padding: 1.5em 0;
+    border-bottom: 2px solid #e3e3e4;
+}
+
+.support-text {
+    width: 95%;
+}
+
+.support-arrow {
+    width: 5%;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 8em;
+    padding-bottom: 2em;
+    background-color: black;
+    color: white;
+}
+
+.col-footer {
+    width: 20%;
+}
+
+.col-footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}
+
+footer #border-grey {
+    margin-top: 8em;
+    margin-bottom: 2em;
+    width: 150px;
+}
+
+.language {
+    color: #e3e3e4;
+}
+
+.arrow-up {
+    font-size: .7em;
 }
