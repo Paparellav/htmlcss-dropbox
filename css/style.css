@@ -42,24 +42,8 @@ html {
     margin-top: 2em;
 }
 
-.mr-2 {
-    margin-right: 2em;
-}
-
 .mb-2 {
     margin-bottom: 2em;
-}
-
-.ml-2 {
-    margin-left: 2em;
-}
-
-.vertical-padding {
-    padding: 2em 0;
-}
-
-.horizontal-padding {
-    padding: 0 1em;
 }
 
 .underline {
@@ -137,8 +121,6 @@ html {
 /* HEADER */
 header {
     line-height: 50px;
-    /* test */
-    /* height: 50px; */
 }
 
 nav {
@@ -153,9 +135,6 @@ nav {
 .nav-logo {
     width: 12.5%;
     text-align: center;
-    /* test
-    height: 50px;
-    background-color: red; */
 }
 
 .nav-logo img {
@@ -165,10 +144,11 @@ nav {
 
 .nav-center-menu {
     width: 52%;
+    display: inline-block;
+}
 
-    /* test
-    height: 50px;
-    background-color: aquamarine; */
+.nav-center-menu li a {
+    display: inline-block;
 }
 
 nav li {
@@ -183,16 +163,10 @@ nav a {
 
 .nav-right-menu {
     width: 35.5%;
-
-    /* test
-    height: 50px;
-    background-color: blueviolet; */
 }
 
 /* JUMBOTRON */
 .jumbotron {
-    
-    /* test */
     height: 650px;
     background-color: #b4d0e7;
 }
@@ -200,17 +174,11 @@ nav a {
 .jumbo-title {
     font-size: 4em;
     padding-top: 1em;
-    /* test */
-    /* height: 100px;
-    background-color: bisque; */
 }
 
 .text-col {
     width: 35%;
     margin-top: 3em;
-    /* test */
-    /* height: 250px; */
-    /* background-color: brown; */
 }
 
 .jumbo-btn {
@@ -233,22 +201,14 @@ nav a {
 .image-col {
     width: 65%;
     margin-top: 3em;
-
-    /* test */
-    /* height: 400px;
-    background-color: blueviolet; */
 }
 
 /* SEZIONE PIANO DROPBOX */
-
 .dropbox-plan .container {
     width: 60%;
 }
 .plan-top .plan-title {
-    
-    /* test */
     font-size: 2em;
-    /* background-color: yellow; */
 }
 
 .radio1, .radio2 {
@@ -257,15 +217,11 @@ nav a {
 }
 
 .plan-bottom {
-    /* test */
     height: 1000px;
-    /* background-color: yellowgreen; */
 }
 
 .side-plan-col {
     width: calc((100%/3) - 10px);
-
-    /* test */
     height: 95%;
     border: 1px solid #d0d0d3;
 }
@@ -320,8 +276,6 @@ nav a {
 }
 
 .enterprise-top {
-    /* test */
-    /* height: 200px; */
     border: 1px solid #d0d0d3;
     position: relative;
 }
@@ -344,20 +298,12 @@ nav a {
 
 .enterprise-image {
     width: 50%;
-
-    /* test */
-    /* height: 300px;
-    background-color: bisque; */
 }
 
 .enterprise-text {
     width: calc(50% - 10px);
     padding-left: 2em;
     line-height: 1.8em;
-
-    /* test */
-    /* height: 300px;
-    background-color: blueviolet; */
 }
 
 .content-square .container {
@@ -371,10 +317,6 @@ nav a {
 .side-square {
     width: calc((100%/3) - 60px);
     margin: 10px 30px;
-
-    /* test */
-    /* height: 200px; */
-    /* background-color: aqua; */
 }
 
 .five-thousand-section .container {
@@ -390,9 +332,6 @@ nav a {
 
 .side-square-partner {
     width: 520px;
-    /* test */
-    /* height: 500px;
-    background-color: red; */
 }
 
 .partner-square {
@@ -414,6 +353,7 @@ nav a {
     /* test */
     height: 520px;
     background-color: #f5f5f5;
+    overflow: auto;
 }
 
 .designit-logo img {
@@ -450,13 +390,10 @@ nav a {
 }
 .try-now-button {
     display: inline-block;
+    padding: .6em 3em;
     position: absolute;
     top: 7em;
     right: 0;
-}
-
-.try-now-button a {
-    padding: .6em 3em;
     background-color: white;
     color: black;
 }
@@ -477,11 +414,13 @@ nav a {
 }
 
 .support-text {
-    width: 95%;
+    width: 90%;
 }
 
 .support-arrow {
-    width: 5%;
+    width: 10%;
+    text-align: right;
+    color: black;
 }
 
 /* FOOTER */
@@ -514,4 +453,30 @@ footer #border-grey {
 
 .arrow-up {
     font-size: .7em;
+}
+
+/* HOVER */
+.blue-btn:hover {
+    background-color: #3280ff;
+}
+
+.white-btn:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.try-now-button:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.nav-center-menu li a:hover {
+    border-bottom: 2px solid rgb(0, 221, 0);
+}
+
+.answer-hidden {
+    display: none;
+    color: grey;
+}
+
+.row-support:hover .answer-hidden {
+    display: inline-block;
 }
